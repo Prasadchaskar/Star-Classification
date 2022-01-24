@@ -14,23 +14,3 @@ def predict(df):
     return output
 
 						
-alpha = 135.689107
-delta = 	32.494632
-u = 23.87882	
-g = 22.27530	
-r = 20.39501	
-i = 19.16573	
-z = 18.79371	
-redshift = 0.634794
-df = pd.DataFrame({ 
-    'alpha':[alpha],
-    'delta':[delta], 
-    'u':[u], 
-    'g':[g],
-    'r':[r], 
-    'i':[i],
-    'z':[z],
-    'redshift':[redshift]
-
-})
-print(predict(df))
