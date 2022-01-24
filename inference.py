@@ -2,8 +2,8 @@ import pickle
 import numpy as np
 import pandas as pd
 import math
-model = pickle.load(open('Steller/star.pkl', 'rb'))
-scaler = pickle.load(open('Steller/scalar.pkl', 'rb'))
+model = pickle.load(open('star.pkl', 'rb'))
+scaler = pickle.load(open('scalar.pkl', 'rb'))
 class_names = ['Galaxy','QSO','Star']
 
 def predict(df):
